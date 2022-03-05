@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div className="w-40/50 bg-white ml-auto mr-auto mt-3 rounded">
-            <header className="flex justify-between cursor-pointer">
+        <div className=" fixed top-0 left-0 right-0 z-20 bg-white  h-20">
+            <header className="flex justify-between cursor-pointer w-40/50  ml-auto mr-auto mt-3 ">
                 <div className="">
                     <img
                         src="/logo.png"
